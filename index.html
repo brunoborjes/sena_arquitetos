@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sena Arquitetos Associados — Arquitetura e Design de Interiores</title>
+  <meta name="description" content="Mais de 30 anos esculpindo luz, matéria e permanência. Projetos residenciais, comerciais e incorporações em Minas Gerais e em todo o Brasil." />
+  <meta name="keywords" content="Sena Arquitetos Associados, arquitetura autoral, design de interiores, Miriam Sena, Divinópolis, Juiz de Fora, projetos residenciais, incorporações" />
+  <meta name="theme-color" content="#F7F4EE" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sena Arquitetos Associados" />
+  <meta property="og:description" content="Três décadas de arquitetura autoral entre o silêncio da forma e a vitalidade de quem habita." />
+  <meta property="og:type" content="website" />
+
+  <!-- Tipografia Editorial: Cormorant Garamond & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Pular para o conteúdo principal</a>
+
+  <!-- Cabeçalho Minimalista -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <a href="#inicio" class="brand" aria-label="Sena Arquitetos Associados — Início">
+        <span class="brand-name">SENA</span>
+        <span class="brand-sub">Arquitetos Associados</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="#obras" class="nav-link">Obras</a>
+        <a href="#escritorio" class="nav-link">O Escritório</a>
+        <a href="#servicos" class="nav-link">Serviços</a>
+        <a href="#reconhecimento" class="nav-link">Reconhecimento</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobileDrawer">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu Mobile em Tela Cheia -->
+  <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+    <nav class="mobile-nav" aria-label="Navegação mobile">
+      <a href="#obras" class="mobile-link">01. Obras</a>
+      <a href="#escritorio" class="mobile-link">02. O Escritório</a>
+      <a href="#servicos" class="mobile-link">03. Serviços</a>
+      <a href="#reconhecimento" class="mobile-link">04. Reconhecimento</a>
+      <a href="#contato" class="mobile-link">05. Contato</a>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <p>Divinópolis &bull; Juiz de Fora &bull; Brasil</p>
+      <a href="https://wa.me/5537988511549" target="_blank" rel="noopener noreferrer">(37) 98851-1549</a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- =========================================================
+         VISÃO PRINCIPAL (EXPOSIÇÃO CONTÍNUA)
+    ========================================================== -->
+    <div id="exhibitionView">
+      <!-- 1. HERO CINEMATOGRÁFICO -->
+      <section id="inicio" class="hero-gallery" aria-label="Abertura">
+        <div class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2200&q=85"
+            alt="Arquitetura contemporânea em pedra natural, madeira e iluminação indireta quente por Sena Arquitetos Associados"
+            class="hero-image"
+          />
+          <div class="hero-scrim"></div>
+        </div>
+
+        <div class="hero-content container">
+          <p class="eyebrow reveal-up">Divinópolis &mdash; Juiz de Fora &mdash; Brasil</p>
+          <h1 class="hero-title reveal-up delay-1">
+            Três décadas esculpindo<br />
+            <em>luz, matéria e permanência.</em>
+          </h1>
+          <p class="hero-caption reveal-up delay-2">
+            Arquitetura autoral entre o silêncio da forma e a vitalidade de quem habita.
+          </p>
+          <a href="#curadoria" class="scroll-cue reveal-up delay-3" aria-label="Iniciar percurso pela galeria">
+            <span>Iniciar percurso</span>
+            <span class="scroll-line" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 2. PAUSA EDITORIAL (MANIFESTO BREVE) -->
+      <section id="curadoria" class="editorial-pause section-spacing">
+        <div class="container narrow-container reveal-step">
+          <span class="section-index">I &mdash; Essência</span>
+          <blockquote class="manifesto-quote">
+            “Cada obra nasce da escuta atenta do lugar. Buscamos a síntese onde rigor técnico, proporção e afeto se tornam inseparáveis.”
+          </blockquote>
+          <p class="manifesto-sub">
+            Há mais de trinta anos, o escritório conduz projetos residenciais e empreendimentos que atravessam o tempo sem perder o frescor do primeiro traço.
+          </p>
+        </div>
+      </section>
+
+      <!-- 3. OBRAS / PORTFÓLIO -->
+      <section id="obras" class="portfolio-section section-spacing" aria-labelledby="obrasHeading">
+        <div class="container">
+          <div class="section-header reveal-step">
+            <div>
+              <span class="section-index">II &mdash; Acervo Selecionado</span>
+              <h2 id="obrasHeading" class="section-title">Obras</h2>
+            </div>
+
+            <div class="filter-bar" role="tablist" aria-label="Filtrar obras por categoria">
+              <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Todas</button>
+              <button class="filter-btn" data-filter="residencial" role="tab" aria-selected="false">Residencial</button>
+              <button class="filter-btn" data-filter="comercial" role="tab" aria-selected="false">Comercial &amp; Construtoras</button>
+            </div>
+          </div>
+
+          <div class="gallery-grid" id="portfolioGrid">
+            <!-- Renderizado via script.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. O ESCRITÓRIO & EQUIPE EDITORIAL -->
+      <section id="escritorio" class="studio-section section-spacing" aria-labelledby="escritorioHeading">
+        <div class="container">
+          <div class="studio-intro-grid">
+            <div class="studio-narrative reveal-step">
+              <span class="section-index">III &mdash; O Escritório</span>
+              <h2 id="escritorioHeading" class="section-title">Identidade própria em cada escala.</h2>
+              <p class="editorial-paragraph">
+                Fundado pela arquiteta <strong>Miriam Sena</strong>, o Sena Arquitetos Associados construiu ao longo de mais de três décadas uma trajetória pautada pela inquietação criativa e pela precisão construtiva.
+              </p>
+              <p class="editorial-paragraph">
+                Com sedes em <strong>Divinópolis</strong> e <strong>Juiz de Fora</strong> e atuação em todo o território nacional, transitamos com naturalidade entre a intimidade da casa contemporânea e a complexidade de grandes empreendimentos imobiliários — sempre com sofisticação, harmonia e atemporalidade.
+              </p>
+            </div>
+
+            <div class="studio-visual reveal-step">
+              <figure class="editorial-figure">
+                <img
+                  src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=85"
+                  alt="Estúdio e atmosfera de materiais naturais Sena Arquitetos Associados"
+                  loading="lazy"
+                />
+                <figcaption>Ateliê &mdash; Matéria natural, desenho e rigor executivo.</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <!-- Equipe em Formato Editorial -->
+          <div class="team-editorial reveal-step">
+            <div class="team-header">
+              <span class="eyebrow">Corpo Técnico &amp; Criativo</span>
+              <h3 class="team-heading">As pessoas por trás do traço</h3>
+            </div>
+
+            <ul class="team-ledger" aria-label="Equipe Sena Arquitetos Associados">
+              <li class="team-row founder-row">
+                <span class="member-name">Miriam Sena</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Fundadora &bull; Arquiteta</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Jéssica Nogueira</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Arquiteta</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Natália Sena</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Arquiteta</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Cassia Sena</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Decoradora</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Vanessa Plácido</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Arquiteta</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Maria Clara Aguiar</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Engenheira Civil</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Gabriel Portes</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Arquiteto</span>
+              </li>
+              <li class="team-row">
+                <span class="member-name">Paulo Palmeira</span>
+                <span class="member-line" aria-hidden="true"></span>
+                <span class="member-role">Estagiário</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. SERVIÇOS (DISCIPLINAS EDITORIAIS) -->
+      <section id="servicos" class="services-section section-spacing" aria-labelledby="servicosHeading">
+        <div class="container">
+          <div class="section-header reveal-step">
+            <div>
+              <span class="section-index">IV &mdash; Disciplinas</span>
+              <h2 id="servicosHeading" class="section-title">Do território ao detalhe construído</h2>
+            </div>
+            <p class="section-lead">
+              Acompanhamos toda a jornada da arquitetura — da leitura estratégica do solo à entrega da chave.
+            </p>
+          </div>
+
+          <div class="services-editorial-list">
+            <article class="service-chapter reveal-step">
+              <div class="service-num">01</div>
+              <div class="service-title-col">
+                <h3>Viabilidade de Terreno</h3>
+                <span class="service-tag">Investidores, Construtoras &amp; Incorporadoras</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  Antes do primeiro esboço, deciframos o potencial silencioso da gleba. Cruzamos índices urbanísticos, vocação de mercado e inteligência espacial para transformar terrenos em empreendimentos de alta liquidez e valor arquitetônico perene.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-chapter reveal-step">
+              <div class="service-num">02</div>
+              <div class="service-title-col">
+                <h3>Escolha do Terreno</h3>
+                <span class="service-tag">Curadoria de Implantação</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  Orientamos a decisão de compra a partir da leitura sensível da topografia, insolação, ventos dominantes e visuais. Garantimos que o lugar escolhido já carregue em si a alma do projeto que irá receber.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-chapter reveal-step">
+              <div class="service-num">03</div>
+              <div class="service-title-col">
+                <h3>Projeto Arquitetônico Executivo</h3>
+                <span class="service-tag">Rigor &amp; Síntese Construtiva</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  O desenho elevado ao grau máximo de precisão. Cada encontro de materiais, paginação, infraestrutura e detalhamento técnico é minuciosamente resolvido para que o canteiro execute a obra com fluidez e previsibilidade.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-chapter reveal-step">
+              <div class="service-num">04</div>
+              <div class="service-title-col">
+                <h3>Projeto Legal</h3>
+                <span class="service-tag">Prefeituras &amp; Vigilância Sanitária</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  Conduzimos todo o trâmite normativo e aprovações junto aos órgãos municipais e sanitários com serenidade e domínio técnico, assegurando conformidade integral sem comprometer a pureza do partido arquitetônico.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-chapter reveal-step">
+              <div class="service-num">05</div>
+              <div class="service-title-col">
+                <h3>Design de Interiores</h3>
+                <span class="service-tag">Atmosfera, Tato &amp; Mobiliário</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  A extensão íntima da arquitetura. Projetamos marcenarias autorais, iluminação cênica, texturas naturais e curadoria de mobiliário para criar espaços que acolhem o cotidiano com elegância discreta.
+                </p>
+              </div>
+            </article>
+
+            <article class="service-chapter reveal-step">
+              <div class="service-num">06</div>
+              <div class="service-title-col">
+                <h3>Acompanhamento de Obra</h3>
+                <span class="service-tag">Fidelidade ao Traço</span>
+              </div>
+              <div class="service-desc-col">
+                <p>
+                  Presença ativa no canteiro para zelar pela integridade estética e técnica da concepção original. Acompanhamos decisões de acabamento e compatibilizações para que a obra construída honre fielmente o projeto.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. RECONHECIMENTO & IMPRENSA -->
+      <section id="reconhecimento" class="recognition-section section-spacing" aria-labelledby="reconhecimentoHeading">
+        <div class="container">
+          <div class="section-header reveal-step">
+            <div>
+              <span class="section-index">V &mdash; Reconhecimento</span>
+              <h2 id="reconhecimentoHeading" class="section-title">Publicações &amp; Trajetória</h2>
+            </div>
+          </div>
+
+          <div class="recognition-ledger reveal-step">
+            <div class="rec-row">
+              <span class="rec-year">2025</span>
+              <span class="rec-title">Anuário de Arquitetura e Design de Minas Gerais</span>
+              <span class="rec-detail">Destaque Residencial Contemporâneo &mdash; Residencial Terrazo</span>
+            </div>
+            <div class="rec-row">
+              <span class="rec-year">2024</span>
+              <span class="rec-title">Mostra Contemporânea de Interiores MG</span>
+              <span class="rec-detail">Curadoria de Espaços Integrados &mdash; Apartamento Panorâmico</span>
+            </div>
+            <div class="rec-row">
+              <span class="rec-year">2023</span>
+              <span class="rec-title">Ciclo de Arquitetura Mineira &mdash; Juiz de Fora &amp; Divinópolis</span>
+              <span class="rec-detail">Homenagem pelos 30 anos de contribuição à paisagem urbana</span>
+            </div>
+            <div class="rec-row">
+              <span class="rec-year">2022</span>
+              <span class="rec-title">Caderno Especial Arquitetura &amp; Matéria</span>
+              <span class="rec-detail">Publicação editorial &mdash; Casa Cubo e Casa Bonita</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 7. CONTATO & SEDES -->
+      <section id="contato" class="contact-section section-spacing" aria-labelledby="contatoHeading">
+        <div class="container">
+          <div class="contact-grid">
+            <div class="contact-info reveal-step">
+              <span class="section-index">VI &mdash; Diálogo</span>
+              <h2 id="contatoHeading" class="section-title">Inicie uma conversa sobre o seu próximo espaço.</h2>
+              <p class="editorial-paragraph">
+                Atendemos projetos residenciais, comerciais e incorporações em Minas Gerais e em todo o Brasil.
+              </p>
+
+              <div class="direct-channels">
+                <a href="https://wa.me/5537988511549?text=Ol%C3%A1%2C%20gostaria%20de%20conversar%20sobre%20um%20projeto%20com%20a%20Sena%20Arquitetos%20Associados." target="_blank" rel="noopener noreferrer" class="channel-item">
+                  <span class="channel-label">WhatsApp Business</span>
+                  <span class="channel-value">(37) 98851-1549 &nearr;</span>
+                </a>
+                <a href="mailto:senaarquitetos@gmail.com" class="channel-item">
+                  <span class="channel-label">E-mail</span>
+                  <span class="channel-value">senaarquitetos@gmail.com</span>
+                </a>
+                <div class="social-links-row">
+                  <a href="https://instagram.com/senaarquitetos" target="_blank" rel="noopener noreferrer">Instagram @senaarquitetos</a>
+                  <span>&bull;</span>
+                  <a href="https://facebook.com/senaarquitetosassociados" target="_blank" rel="noopener noreferrer">Facebook /senaarquitetosassociados</a>
+                </div>
+              </div>
+
+              <!-- Seletor de Sedes + Mapa -->
+              <div class="studios-box">
+                <div class="studio-tabs" role="tablist" aria-label="Sedes do escritório">
+                  <button class="studio-tab active" data-city="divinopolis" role="tab" aria-selected="true">Sede Divinópolis &bull; MG</button>
+                  <button class="studio-tab" data-city="jf" role="tab" aria-selected="false">Sede Juiz de Fora &bull; MG</button>
+                </div>
+                <p class="studio-address" id="studioAddress">
+                  Divinópolis, Minas Gerais &mdash; Atendimento presencial mediante agendamento e consultoria remota para todo o Brasil.
+                </p>
+                <div class="map-frame">
+                  <iframe
+                    id="studioMap"
+                    title="Mapa da sede Sena Arquitetos Associados"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=-44.915%2C-20.165%2C-44.865%2C-20.125&layer=mapnik"
+                    loading="lazy"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+
+            <!-- Formulário Editorial -->
+            <div class="contact-form-wrapper reveal-step">
+              <form id="contactForm" class="editorial-form" novalidate>
+                <div class="form-group">
+                  <label for="nome">Nome completo</label>
+                  <input type="text" id="nome" name="nome" placeholder="Como podemos chamá-lo(a)?" required />
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="seu@email.com" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" id="whatsapp" name="whatsapp" placeholder="(00) 00000-0000" required />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="mensagem">Sobre o projeto ou terreno</label>
+                  <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos brevemente sobre a escala, localização ou intenção da obra..." required></textarea>
+                </div>
+
+                <div class="form-actions">
+                  <button type="submit" class="btn-editorial">Enviar mensagem</button>
+                  <button type="button" id="sendWhatsappBtn" class="btn-editorial-outline">Continuar no WhatsApp</button>
+                </div>
+
+                <p class="form-feedback" id="formFeedback" role="status" aria-live="polite"></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- =========================================================
+         PÁGINA DEDICADA DA OBRA (ESTILO GALERIA INDIVIDUAL)
+    ========================================================== -->
+    <article id="projectDetailView" class="project-detail-view" hidden aria-live="polite">
+      <!-- Conteúdo injetado dinamicamente -->
+    </article>
+  </main>
+
+  <!-- Lightbox / Zoom Interativo -->
+  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Visualização ampliada da obra" hidden>
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar ampliação">Fechar &times;</button>
+    <div class="lightbox-stage">
+      <img id="lightboxImg" src="" alt="" />
+      <p id="lightboxCaption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- Botão Discreto WhatsApp Business -->
+  <a
+    href="https://wa.me/5537988511549?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Sena%20Arquitetos%20Associados."
+    class="floating-wa"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Conversar via WhatsApp Business"
+  >
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+      <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <span class="brand-name">SENA</span>
+        <p class="footer-note">Sena Arquitetos Associados &mdash; Mais de 30 anos de arquitetura e design de interiores.</p>
+      </div>
+      <div class="footer-meta">
+        <span>Divinópolis &bull; Juiz de Fora &bull; Atuação Nacional</span>
+        <span>&copy; 2026 Todos os direitos reservados.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
